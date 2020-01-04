@@ -2,6 +2,17 @@
   <div class="sidebar">
     <h1>This is a side bar</h1>
     <h3>It has menus like things on it.</h3>
+
+    <div class="experince">
+      <p>Education</p>
+      <p>Projects</p>
+    </div>
+
+    <div class="contact-info">
+      <p>Social media</p>
+    
+    </div>
+
   </div>
 </template>
 
@@ -16,6 +27,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.sidebar{
+  border-right-style: solid;
+  border-right-width: 1px;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -30,4 +45,10 @@ li {
 a {
   color: #42b983;
 }
+
+.contact-info{
+  padding-top: 20px;
+}
+
+
 </style>

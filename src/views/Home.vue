@@ -25,20 +25,32 @@ export default {
 </script>
 
 <style>
+
+  @media only screen and (max-width: 375px) {
+    .main{
+      display: block;
+    }
+    
+  }
+  
+@media only screen and (min-width: 375px) {
   .main{
     display: grid;
-     grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas: 
-        "sidemenu   body";
+        "sidemenu body";
+    
   }
 
   .sidemenu {
-    background-color: red;
+    background-color: #c7eff2;
+   
   }
   .body {
-    background-color: blue;
+    background-color: #e6f4f5;
     text-align: center;
 
   }
+}
 
 </style>
