@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+    
     <div class="sidemenu">
       <SideBar></SideBar>
     </div>

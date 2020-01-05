@@ -4,13 +4,15 @@
     <h3>It has menus like things on it.</h3>
 
     <div class="experince">
-      <p>Education</p>
       <p>Projects</p>
+      <p>description and link to ES</p>
+      <p>Java</p>
+      <p>Python</p>
+      
     </div>
 
     <div class="contact-info">
       <p>Social media</p>
-    
     </div>
 
   </div>
