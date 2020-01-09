@@ -8,28 +8,26 @@
       <p>description and link to ES</p>
       <p>Java</p>
       <p>Python</p>
-      
     </div>
 
     <div class="contact-info">
       <p>Social media</p>
     </div>
-
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
     msg: String
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.sidebar{
+.sidebar {
   border-right-style: solid;
   border-right-width: 1px;
 }
@@ -48,9 +46,7 @@ a {
   color: #42b983;
 }
 
-.contact-info{
+.contact-info {
   padding-top: 20px;
 }
-
-
 </style>
